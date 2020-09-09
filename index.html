@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src ="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+        <title></title>
+    </head>
+    <body>
+        <input class="newnote" type="text" name="" value="">
+        <button id="enter" type="button" name="button">Enter</button>
+        <ul id="list">
+
+        </ul>
+
+        <script id="template" type="text/x-handlebars-template">
+
+            <li data-id={{id}} id="todo">{{text}} <i class="fas fa-trash"></i></li>
+
+
+        </script>
+
+
+        <script src="js/script.js" charset="utf-8"></script>
+    </body>
+</html>
