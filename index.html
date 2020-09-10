@@ -8,15 +8,17 @@
         <title></title>
     </head>
     <body>
-        <input class="newnote" type="text" name="" value="">
-        <button id="enter" type="button" name="button">Enter</button>
+        <div class="newnotebox">
+            <input class="newnote" type="text" name="" value="">
+            <button id="enter" type="button" name="button">+</button>
+        </div>
         <ul id="list">
 
         </ul>
 
         <script id="template" type="text/x-handlebars-template">
 
-            <li data-id={{id}} id="todo">{{text}} <i class="fas fa-trash"></i></li>
+            <li data-id={{id}} id="todo"><span id="note">{{text}}</span> <i class="fas fa-trash"></i></li>
 
 
         </script>
